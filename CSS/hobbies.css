@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans:wght@300&display=swap');
+
+
+body{
+    background: radial-gradient(circle, #719bc3 0%, lightblue 100%);
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+}
+/*header*/
+
+
+.navbar{
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+nav{
+    float: right;
+    display: inline-block;
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav a:hover
+{
+    color: #6387e5;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    border-radius: 5px;
+    width: 0%;
+    background-color: #6387e5;
+
+    position: absolute;
+    top: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+
+}
+/*header*/
+
+/*content*/
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 220px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.cards-hobies{
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#card-2{
+    width: 60%;
+    background: linear-gradient(90deg, whitesmoke 0%, #97ecda 50%, #72acd3 100%);
+    border-radius: 10px;
+}
+#card-2 h1, h2{
+    margin-left: 60px;
+}
+#card-2 h1{
+    text-align: left;
+    color: black;
+}
+#card-2 h2{
+    font-size: 20px;
+    margin-top: 35px;
+}
+#card2-text{
+    width: 80%;
+    margin: 50px 0 0 60px;
+    letter-spacing: 1px;
+}
+
+.custom-image{
+    border-radius: 10px;
+    border: 2px solid rgba(37, 94, 169, 0.81);
+    margin: 0 auto !important;
+    display: block;
+}
+.custom{
+    width: 320px;
+    height: 320px;
+    display: block;
+    margin-top: -349px;
+    opacity: 0;
+}
+
+#cad1-icons{
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+.insideText{
+    text-align: center;
+    font-size: 25px;
+}
+.titleH{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #6387e5;
+}
+#h2hobies{
+    text-align:center;
+    margin-right: 60px;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size: 65px;
+}
+/*content*/
+
+
+/*footer*/
